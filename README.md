@@ -2,17 +2,17 @@
  Applied Matplotlib data and library knowledge to a real-world situation and dataset.
 
 # Repo Direction 
-Created a new repository for this project called #Matplotlib-Data-Visualization, Cloned the new repository(remote) to local by terminal.
+- Created a new repository for this project called #Matplotlib-Data-Visualization, Cloned the new repository(remote) to local by terminal.
 
-Inside my local Git repository, created a folder for "Pymaceuticals"
+- Inside my local Git repository, created a folder for "Pymaceuticals"
 
-Added Jupyter notebook "(pymaceuticals_starter_Roshni.ipynb)" to this folder. This is the main script to run this analysis.
+- Added Jupyter notebook "(pymaceuticals_starter_Roshni.ipynb)" to this folder. This is the main script to run this analysis.
 
-A Data folder that contains the CSV files(Raw Data) i have used. 
+- A Data folder that contains the CSV files(Raw Data) i have used. 
 
-Also this folder that contains "pdf" file that has the results from the conducted analysis.
+- Also this folder that contains "pdf" file that has the results from the conducted analysis.
 
-Pushed these changes to GitHub profile by bash terminal.
+- Pushed these changes to GitHub profile by bash terminal.
 
 # Background 
 Pymaceuticals, Inc., 
@@ -32,7 +32,7 @@ Task was broken down into the following tasks:
 
 3. Creation of bar charts and pie charts.
 
-4. Calculation for quartiles, find outliers, and creating a box plot.
+4. Calculation for quartiles, find outliers, and creation of a box plot.
 
 5. Creation for a line plot and a scatter plot.
 
@@ -43,9 +43,9 @@ Task was broken down into the following tasks:
 # 1.  Data Prepration
 - Ran the required package dependency and data imports, and then merged the mouse_metadata and study_results DataFrames into a single DataFrame.
 
-Displaied the number of unique mice IDs in the data, and then checked for any mouse ID with duplicate time points. Displaied the data associated with that mouse ID, and then created a new DataFrame where this data is removed. Used this cleaned DataFrame for the remaining steps.
+- Displaied the number of unique mice IDs in the data, and then checked for any mouse ID with duplicate time points. Displaied the data associated with that mouse ID, and then created a new DataFrame where this data is removed. Used this cleaned DataFrame for the remaining steps.
 
-Displaied the updated number of unique mice IDs.
+- Displaied the updated number of unique mice IDs.
 
 # 2.  Generating summary statistics.
 Created a DataFrame of summary statistics. There Was more than one method to produce the results after.
@@ -69,3 +69,16 @@ Generated two pie charts. Both charts have identical and shown the distribution 
 Created the first pie chart with the Pandas DataFrame.plot() method.
 
 Created the second pie chart with Matplotlib's pyplot methods.
+
+# 4.Calculation for quartiles, find outliers, and creation of a box plot.
+Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Then, calculate the quartiles and IQR, and determine if there are any potential outliers across all four treatment regimens. Use the following substeps:
+
+Create a grouped DataFrame that shows the last (greatest) time point for each mouse. Merge this grouped DataFrame with the original cleaned DataFrame.
+
+Create a list that holds the treatment names as well as a second, empty list to hold the tumor volume data.
+
+Loop through each drug in the treatment list, locating the rows in the merged DataFrame that correspond to each treatment. Append the resulting final tumor volumes for each drug to the empty list.
+
+Determine outliers by using the upper and lower bounds, and then print the results.
+
+Using Matplotlib, generate a box plot that shows the distribution of the final tumor volume for all the mice in each treatment group. Highlight any potential outliers in the plot by changing their color and style.
