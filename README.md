@@ -2,6 +2,17 @@
  Applied Matplotlib data and library knowledge to a real-world situation and dataset.
 
 # Repo Direction 
+Created a new repository for this project called #Matplotlib-Data-Visualization, Cloned the new repository(remote) to local by terminal.
+
+Inside my local Git repository, created a folder for "Pymaceuticals"
+
+Added Jupyter notebook "(pymaceuticals_starter_Roshni.ipynb)" to this folder. This is the main script to run this analysis.
+
+A Data folder that contains the CSV files(Raw Data) i have used. 
+
+Also this folder that contains "pdf" file that has the results from the conducted analysis.
+
+Pushed these changes to GitHub profile by bash terminal.
 
 # Background 
 Pymaceuticals, Inc., 
