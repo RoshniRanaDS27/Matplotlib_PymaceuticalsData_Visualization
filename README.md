@@ -85,3 +85,14 @@ Both charts have identicals and the total total number of rows (Mouse ID/Timepoi
 - Determined outliers by using the upper and lower bounds, and then print the results.
 
 - Used Matplotlib, generated a box plot that shows the distribution of the final tumor volume for all the mice in each treatment group. Highlighted any potential outliers in the plot by changing their color and style.
+
+  # 5. Creation for a line plot and a scatter plot.
+- Selected a single mouse that was treated with Capomulin, and generated a line plot of tumor volume versus time point for that mouse.
+
+- Generated a scatter plot of mouse weight versus average observed tumor volume for the entire Capomulin treatment regimen.
+
+# 6.  Calculation for correlation and regression.
+
+- Calculated the correlation coefficient and linear regression model between mouse weight and average observed tumor volume for the entire Capomulin treatment regimen.
+
+- Plotted the linear regression model on top of the previous scatter plot.
