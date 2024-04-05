@@ -48,37 +48,40 @@ Task was broken down into the following tasks:
 - Displaied the updated number of unique mice IDs.
 
 # 2.  Generating summary statistics.
-Created a DataFrame of summary statistics. There Was more than one method to produce the results after.
+- Created a DataFrame of summary statistics. There Was more than one method to produce the results after.
 
-Summary statistics are included:
+- Summary statistics are included:
 
-A row for each drug regimen. These regimen names have contained in the index column.
+- A row for each drug regimen. These regimen names have contained in the index column.
 
-A column for each of the following statistics: mean, median, variance, standard deviation, and SEM of the tumor volume.
+- A column for each of the following statistics: mean, median, variance, standard deviation, and SEM of the tumor volume.
 
 # 3. Creation of bar charts and pie charts.
-Generated two bar charts. 
+- Generated two bar charts. 
 Both charts have identicals and the total total number of rows (Mouse ID/Timepoints) for each drug regimen throughout the study.
 
-Created the first bar chart with the Pandas DataFrame.plot() method.
+- Created the first bar chart with the Pandas DataFrame.plot() method.
 
-Created the second bar chart with Matplotlib's pyplot methods.
+- Created the second bar chart with Matplotlib's pyplot methods.
 
-Generated two pie charts. Both charts have identical and shown the distribution of female versus male mice in the study.
+- Generated two pie charts. Both charts have identical and shown the distribution of female versus male mice in the study.
 
-Created the first pie chart with the Pandas DataFrame.plot() method.
+- Created the first pie chart with the Pandas DataFrame.plot() method.
 
-Created the second pie chart with Matplotlib's pyplot methods.
+- Created the second pie chart with Matplotlib's pyplot methods.
 
 # 4.Calculation for quartiles, find outliers, and creation of a box plot.
-Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Then, calculate the quartiles and IQR, and determine if there are any potential outliers across all four treatment regimens. Use the following substeps:
+- Calculated the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin.
+- Then, calculated the quartiles and IQR, and determined if there were any potential outliers across all four treatment regimens.
 
-Create a grouped DataFrame that shows the last (greatest) time point for each mouse. Merge this grouped DataFrame with the original cleaned DataFrame.
+- Used the following substeps:
 
-Create a list that holds the treatment names as well as a second, empty list to hold the tumor volume data.
+- Created a grouped DataFrame that shows the last (greatest) time point for each mouse. Merged this grouped DataFrame with the original cleaned DataFrame.
 
-Loop through each drug in the treatment list, locating the rows in the merged DataFrame that correspond to each treatment. Append the resulting final tumor volumes for each drug to the empty list.
+- Created a list that holds the treatment names as well as a second, empty list to hold the tumor volume data.
 
-Determine outliers by using the upper and lower bounds, and then print the results.
+- Loopped through each drug in the treatment list, locating the rows in the merged DataFrame that corresponds to each treatment. Appended the resulting final tumor volumes for each drug to the empty list.
 
-Using Matplotlib, generate a box plot that shows the distribution of the final tumor volume for all the mice in each treatment group. Highlight any potential outliers in the plot by changing their color and style.
+- Determined outliers by using the upper and lower bounds, and then print the results.
+
+- Used Matplotlib, generated a box plot that shows the distribution of the final tumor volume for all the mice in each treatment group. Highlighted any potential outliers in the plot by changing their color and style.
