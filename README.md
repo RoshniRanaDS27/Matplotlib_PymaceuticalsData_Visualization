@@ -1,19 +1,6 @@
 # Pymaceuticals Data Analysis
  Applied Matplotlib data and library knowledge to a real-world situation and dataset.
-
-# Repo Direction 
-- Created a new repository for this project called #Matplotlib-Data-Visualization, Cloned the new repository(remote) to local by terminal.
-
-- Inside my local Git repository, created a folder for "Pymaceuticals"
-
-- Added Jupyter notebook "(pymaceuticals_starter_Roshni.ipynb)" to this folder. This is the main script to run this analysis.
-
-- A Data folder that contains the CSV files(Raw Data) i have used. 
-
-- Also this folder that contains "pdf" file that has the results from the conducted analysis.
-
-- Pushed these changes to GitHub profile by bash terminal.
-
+ 
 # Background 
 Pymaceuticals, Inc., 
 A new pharmaceutical company that specializes in anti-cancer medications. Recently, it began screening for potential treatments for squamous cell carcinoma (SCC), a commonly occurring form of skin cancer.
@@ -96,3 +83,16 @@ Both charts have identicals and the total total number of rows (Mouse ID/Timepoi
 - Calculated the correlation coefficient and linear regression model between mouse weight and average observed tumor volume for the entire Capomulin treatment regimen.
 
 - Plotted the linear regression model on top of the previous scatter plot.
+
+# Repo Direction 
+- Created a new repository for this project called #Matplotlib-Data-Visualization, Cloned the new repository(remote) to local by terminal.
+
+- Inside my local Git repository, created a folder for "Pymaceuticals"
+
+- Added Jupyter notebook "(pymaceuticals_starter_Roshni.ipynb)" to this folder. This is the main script to run this analysis.
+
+- A Data folder that contains the CSV files(Raw Data) i have used. 
+
+- Also this folder that contains "pdf" file that has the results from the conducted analysis.
+
+- Pushed these changes to GitHub profile by bash terminal.
