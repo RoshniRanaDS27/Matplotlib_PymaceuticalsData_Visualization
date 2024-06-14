@@ -2,7 +2,7 @@
 ![image](https://github.com/RoshniRanaDS/Matplotlib_PymaceuticalsData_Visualization/assets/161755928/1a1c5c8a-e43b-4587-a7ff-d44bb8902892)
 #
 ## Applied Matplotlib data and library knowledge to a real-world situation and dataset.
-![image](https://github.com/RoshniRanaDS/Matplotlib_PymaceuticalsData_Visualization/assets/161755928/e4d71329-4fb2-4c3b-a9ed-9f12d128535b) ![image](https://github.com/RoshniRanaDS/Matplotlib_PymaceuticalsData_Visualization/assets/161755928/ce934456-be21-43cb-a43e-6bd5ee7b30e7) ![image](https://github.com/RoshniRanaDS/Matplotlib_PymaceuticalsData_Visualization/assets/161755928/49bfa692-0a35-4f34-b3c7-5c2a281e0aa2)
+![image](https://github.com/RoshniRanaDS/Matplotlib_PymaceuticalsData_Visualization/assets/161755928/e4d71329-4fb2-4c3b-a9ed-9f12d128535b) ![image](https://github.com/RoshniRanaDS/Data_Analysis_Using_Pandas/assets/161755928/9b82848f-6a53-4432-986d-e058768ab3cb) ![image](https://github.com/RoshniRanaDS/Data_Analysis_Using_Pandas/assets/161755928/69f2d55b-aea1-4555-998f-da7c19958a5e) ![image](https://github.com/RoshniRanaDS/Data_Analysis_Using_Pandas/assets/161755928/44d3c126-048d-41b0-a07c-23be6d0abfee)
 
 # Background 
 Pymaceuticals, Inc.,  
@@ -126,9 +126,9 @@ Task was broken down into the following tasks:
 > Useful information that users should know, even when skimming content.
 #
 # Repo Direction 
-- Created a new repository for this project called #`Matplotlib-Data-Visualization`, Cloned the new repository(remote) to local by `terminal`. 
-- Inside my local `Git repository`, created a folder for "`Pymaceuticals`"
-- Added `Jupyter notebook` _"(pymaceuticals_starter_Roshni.ipynb)"_ to this folder. This is the main script to run this analysis. 
-- A Data folder that contains the `CSV` files(Raw Data) i have used.  
-- Also this folder that contains "`pdf`" file that has the results from the conducted analysis. 
-- Pushed these changes to `GitHub` profile by `bash terminal`. 
+- [x] Created a new repository for this project called #`Matplotlib-Data-Visualization`, Cloned the new repository(remote) to local by `terminal`. 
+- [x] Inside my local `Git repository`, created a folder for "`Pymaceuticals`"
+- [x] Added `Jupyter notebook` _"(pymaceuticals_starter_Roshni.ipynb)"_ to this folder. This is the main script to run this analysis. 
+- [x] A Data folder that contains the `CSV` files(Raw Data) i have used.  
+- [x] Also this folder that contains "`pdf`" file that has the results from the conducted analysis. 
+- [x] Pushed these changes to `GitHub` profile by `bash terminal`. 
