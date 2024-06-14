@@ -93,7 +93,10 @@ Task was broken down into the following tasks:
 - Created a `grouped DataFrame` that shows the last (greatest) time point for each mouse. `Merged` this grouped DataFrame with the original `cleaned` DataFrame. 
 - Created a list that holds the treatment names as well as a second, empty list to hold the tumor volume data. 
 - `Loopped` through each drug in the treatment list, locating the rows in the merged DataFrame that corresponds to each treatment. `Appended` the resulting final tumor volumes for each drug to the empty list. 
-- Determined `outliers` by using the _upper and lower bounds_, and then print the results. 
+- Determined `outliers` by using the _upper and lower bounds_, and then print the results.
+#
+![image](https://github.com/RoshniRanaDS/Matplotlib_PymaceuticalsData_Visualization/assets/161755928/abf73d5c-e1ab-45f2-a50a-e0c90baf8ef2)
+#
 - Used `Matplotlib`, generated a `box plot` that shows the distribution of the final tumor volume for all the mice in each treatment group. Highlighted any `potential outliers` in the plot by changing their `color and style`.
 #
 ![image](https://github.com/RoshniRanaDS/Matplotlib_PymaceuticalsData_Visualization/assets/161755928/57fd8e1e-c48e-416b-81f0-75a90cd88624)
