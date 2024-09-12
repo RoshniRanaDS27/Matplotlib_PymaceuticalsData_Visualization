@@ -1,4 +1,4 @@
-# Pymaceuticals Data Analysis
+# Pymaceuticals Data Analysis and visualization
 ![image](https://github.com/RoshniRanaDS/Matplotlib_PymaceuticalsData_Visualization/assets/161755928/1a1c5c8a-e43b-4587-a7ff-d44bb8902892)
 #
 ## Applied Matplotlib data and library knowledge to a real-world situation and dataset.
